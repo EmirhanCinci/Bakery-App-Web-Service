@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DTOs\Gender\Post\" />
+    <Folder Include="DTOs\Gender\Put\" />
+    <Folder Include="DTOs\OrderDetail\Put\" />
+    <Folder Include="DTOs\Order\Put\" />
+    <Folder Include="DTOs\UserBasket\Put\" />
+    <Folder Include="DTOs\UserFavorite\Put\" />
+  </ItemGroup>
+
+</Project>
